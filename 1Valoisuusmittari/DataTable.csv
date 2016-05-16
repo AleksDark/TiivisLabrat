@@ -1,4 +1,4 @@
-Vastuskerroin,10 pot – edel,1-edellinen,,Mitattu arvo x10000,Mitattu arvo,Log mitattu arvo,
+Vastuskerroin,10 pot – edel,1-edellinen,,Mitattu arvo x10000,Mitattu arvo,Log mitattu arvo,(1+5/edel)*10000
 0,1,0,Err:502,2890,0.289,1,183010.380622837
 0.1,0.7943282347,0.2056717653,-0.6868253244,3406,0.3406,1.1785467128,156799.765120376
 0.2,0.6309573445,0.3690426555,-0.4329234333,4158,0.4158,1.4387543253,130250.12025012
