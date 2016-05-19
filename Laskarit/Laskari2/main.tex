@@ -11,6 +11,11 @@
 \usepackage{color}
 
 \usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{epstopdf}
 
 \lstset{ %
   backgroundcolor=\color{white},
@@ -28,60 +33,47 @@
 \pagestyle{fancy}
 
 \section*{Tehtävä 1}
-\begin{figure}[!hbt]
+\begin{sidewaysfigure}[!hbt]
 \includegraphics[width=0.99\textwidth]{1}
-\end{figure}
+\caption{Tehtävä 1:n tulos, (1/$r^2$, N)- kuvaajassa esitetty datajoukko ja sovitettu suora ilman painokertoimia.}
+\end{sidewaysfigure}
 
+Iso / Paremman laatuinen / alkuperäinen: \url{"https://github.com/AleksDark/TiivisLabrat/blob/master/Laskarit/Laskari2/1.png}
+
+Esitetyssä kuvassa punaiset pisteet ovat annettu datajoukko ja  sininen on siihen sovitettu yhtälö.
 
 \section*{Tehtävä 2}
-Kirchoffin lain mukaan potentiaalin muutos $U_0$:sta maahan olisi:
-\begin{center}
-\begin{eqnarray*}
-&& U_0 -R_1 I - R I = 0 \\ 
-& => & I=\frac{U}{R_1 + R} 
-\end{eqnarray*}
-\end{center}
+\begin{sidewaysfigure}[!hbt]
+\includegraphics[width=1\textwidth]{2}
+\caption{Tehtävä 2:n tulos, (1/$r^2$, N)- kuvaajassa esitetty datajoukko ja sovitettu suora hyödyntäen $\chi^2$ jakaumaa datalle.}
+\end{sidewaysfigure}
 
-Nut tutkitaan jännitehäviötä $V_R$:sta maahan.
-Maa on nolla suhteessa muihin, joten koko $V_R$ on oltava jännitehäviönä säätövastuksessa.
+Iso / Paremman laatuinen / alkuperäinen: \url{"https://github.com/AleksDark/TiivisLabrat/blob/master/Laskarit/Laskari2/2.png}
 
-\begin{center}
-\begin{eqnarray*}
-V_R = R I = \frac{R U}{R_1 + R}
-\end{eqnarray*}
-\end{center}
+Esitetyssä Kuva 2:ssa punaiset pisteet ovat annettu datajoukko ja  sininen on siihen sovitettu yhtälö. Virhepalkit ovat mustana, sekä pieniä.
 
-Tuolloin $V_B - V_R$:
+Epätarkkuudet ja sovitukset ovat tehty hyödyntäen Moodle AOL1-2, Suoran sovitusmonistetta.
 
-\begin{center}
-\begin{eqnarray*}
-V_B - V_R = k B + U_0 - \frac{R U}{R + R_1}
-\end{eqnarray*}
-\end{center}
-
-Yläpuolella oleva kaava kuvaa mitä jännitemittari näyttää säätövastuksen funktiona.
-
-Lisäksi lasketaan tilannetta kun B=0 ja $\triangle U$=0. Tuolloin:
-
-\begin{center}
-\begin{eqnarray*}
-V_B - V_R = k B + U_0 - \frac{R U}{R + R_1} \\
-= U_0 - \frac{R U}{R_1 + R} \\
-R U = U_0 (R +R_1) \\
-R (U-U_0) = U_0 R_1 \\
-=> R = \frac{U_0 R}{U-U_0} = 3.33(3)\ k\Omega
-\end{eqnarray*}
-\end{center}
+Saadut arvot ovat:\\
+Suoran sovitusparametrit:  [ 1986.88499301    36.79466127]\\
+D:  0.00154369042952 \\
+Epätarkkuudet: 18.684 ja 1.687
 
 \section*{Tehtävä 3}
-Latauslinkki: https://filesender.funet.fi/?vid=17a8f35a-4cd3-9d69-8335-00000d95b230 
+\begin{sidewaysfigure}[!hbt]
+\includegraphics[width=1\textwidth]{3}
+\caption{Tehtävä 3:n tulos, (1/$r^2$, N)- kuvaajassa esitetty datajoukko ja sovitettu suora hyödyntäen tietoa että hajonta on $\sqrt{N}$.}
+\end{sidewaysfigure}
 
-Tiivis versio kuvasta:
+Iso / Paremman laatuinen / alkuperäinen: \url{"https://github.com/AleksDark/TiivisLabrat/blob/master/Laskarit/Laskari2/3.png}\\
 
-\begin{figure}[!hbt]
-%\includegraphics[width=0.95\textwidth]{Laskari13}
-\end{figure}
+Parametrit suoran sovitukseen:  [ 1978.388    37.063]\\
+D : 2.06090577671e-05\\
+Epätarkkuudet:  78.432 ja 3.261
 
+
+\paragraph{Johtopäätökset}
+Huomataan hieman erilaiset parametrit tehtävä 2 vs 3 ja erilaiset epätarkkuudet. Tehtävän 2 sovitus on tarkempi.
 
 \iffalse
 \section*{Tehtävä I}

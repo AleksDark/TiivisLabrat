@@ -52,13 +52,16 @@ aParameters=np.polyfit(x,N,1)
 
 p = np.poly1d(aParameters)
 xp=np.linspace(0,0.3, 100)
-plt.figure(2,figsize=(20,10))
-plt.plot(x, N, '.', xp, p(xp), '-')
-plt.errorbar(x,N, fmt='r.', xerr=0, yerr=4.3, ecolor='black', capthick=3)
+plt.figure(2,figsize=(16,10))
+rSuora=plt.plot(x, N, 'ro', label='Data')
+rSuora2=plt.plot(xp, p(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ *'+str(int(aParameters[0]*100)/100.0)+'+'+str(int(aParameters[1]*100)/100.0))
+#plt.errorbar(x,N, fmt='r.', xerr=0, yerr=4.3, ecolor='black', capthick=3)
 
-pl.title('AOL 1.L2. teht. 1, Sateily kaanteisen etaisyyden nelion funktiona',size=18,fontweight='bold')
-pl.xlabel('$1/etaisyys^2 (1/cm^2)$',size=14)
+pl.title('AOL 1.L2. teht. 1, Sateily kaanteisen etaisyyden nelion funktiona',size=20,fontweight='bold')
+pl.xlabel('$1/etaisyys^2 (1/cm^2)$',size=16)
 pl.ylabel('Naytteita minuutissa, (1/min) ',size=14)
+pl.legend([rSuora, rSuora2],['qweqwe','13123'])
+plt.legend(bbox_to_anchor=(0.05, 1), loc=2, borderaxespad=0., prop={'size':20})
 
 
 plt.savefig('1.png')
@@ -91,7 +94,7 @@ dSigma=np.sqrt(sigma2);
 
 x=1/(r*r);
 
-#%% Sovitusparametrien epatarkkuuden laskeminen
+# Sovitusparametrien epatarkkuuden laskeminen
 D=(1/(dSigma*dSigma))*len(x)*sum(x**2/dSigma**2)-(sum(x/dSigma**2))**2
 #D=(1/(dSigma*dSigma))*len(N)*sum(N**2/dSigma**2)-(sum(N/dSigma**2))**2
 print D
@@ -114,18 +117,22 @@ aParameters=np.polyfit(x,N,1)
 
 
 print 'Suoran parametrit', aParameters
-#%%
+#
 p = np.poly1d(aParameters)
 xp=np.linspace(0,0.3, 100)
 plt.figure(2,figsize=(25,13))
-plt.plot(x, N, '.', xp, p(xp), '-')
+rSuora=plt.plot(x, N, '.', label='Data')
+rSuora2=plt.plot(xp, p(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ * ('+str(int(aParameters[0]*100)/100.0)+'$\pm$'+str(int(100*sigmaB)/100.0)+') +'+str(int(aParameters[1]*100)/100.0) +'$\pm$'+str(int(100*sigmaA)/100.0)+')')
 plt.errorbar(x,N, fmt='r.', xerr=0, yerr=dSigma, ecolor='black', capthick=3)
-pl.title('AOL 1.2.L2, Sateily kaanteisen etaisyyden nelion funktiona',size=18,fontweight='bold')
-pl.xlabel('1/etaisyys^2 (1/cm^2)',size=14)
-pl.ylabel('Naytteita minuutissa, (1/min) ',size=14)
+pl.title('AOL 1, L2, teht.2, Sateily kaanteisen etaisyyden nelion funktiona',size=28,fontweight='bold')
+pl.xlabel('$1/etaisyys^2 (1/cm^2)$',size=18)
+pl.ylabel('Naytteita minuutissa, (1/min) ',size=16)
+pl.legend([rSuora, rSuora2],['qweqwe','13123'])
+plt.legend(bbox_to_anchor=(0.05, 1), loc=2, borderaxespad=0., prop={'size':24})
 
 
-plt.show()
+#plt.show()
+plt.savefig('2.png')
 print 'Parameters: ', aParameters
 
 
