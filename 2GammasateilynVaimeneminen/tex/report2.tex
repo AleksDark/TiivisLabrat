@@ -82,7 +82,7 @@ Ennen varsinaista mittausta tutkitiin rakennetun piirin ulostulevan signaalin mu
 Mittaukset aloitettiin taustasäteilyn mittauksella, jotta sitä voitais poistaa analyysivaiheessa. Säteilyn lähteenä oli Cs-137, ja se oli asetettu parin cm korkeudelle lähteestä. Gammasäteilyn vaimenemista lyijyssä tutkittiin lisämällä ohuita 0.13 -- 0.16 cm paksuja levyjä säteilylähteen ja tuikeilmaisimen väliin.
 
 \section{Koejärjestely}
-
+\subsection{Koejärjestely yleisesti}
 Kuva \ref{fig:Koejarjestely} kuvaa koejärjestelyä. 
 
 \begin{figure}[!hbt]
@@ -92,6 +92,26 @@ Kuva \ref{fig:Koejarjestely} kuvaa koejärjestelyä.
 \end{figure}
 
 Kuten mainittiin Johdannossa, tarkoituksena on että säteilylähteeltä tulevaa säteilyä osuu tuikeilmaisimeen ja muuttuu valoksi, jota voimistetaan valomonistinputkella (SiPM). Sen jälkeen signaali muutetaan sähköiseksi ja vahvistetaan (Esivahvistin ja vahvistin), jonka jälkeen se kulkeutuu tietokoneen äänikortin kautta PRA11-ohjelmalle.(PC)
+
+Helpottaakseen laitteiston rakentamista laboratorio-olosuhteissa Kuva \ref{fig:LaitteistonOsat} näyttää miltä laitteiston osat näyttävät luonnossa.
+
+\begin{figure}[!hbt]
+\includegraphics[scale=0.9]{LaitteistonOsat}
+\label{fig:LaitteistonOsat}
+\caption{Laitteiston osat. 1. Valoanturi, jonka vihreän osan päällä on tuikekide; 2. Esivahvistin; 3.Vahvistin; 4. Mittaustilanne, jossa on suljettu valoanturi ja 2 lyijylevyä päällä.}
+\end{figure}
+
+Kuvan \ref{fig:LaitteistonOsat} ensimmäisessä kuvassa on auki oleva valoanturi, jonka vihreän osan keskellä on läpinäkyvä tuikeilmaisin. Mittausten ajaksi tuo laatikko on kiinni, jolla vältetään näkyvän valon häiriötä. Toisessa kuvassa (oikea ylänurkka) on esivahvistin. Kolmannessa vahvistin, ja neljännessä kuvassa on kuva mittaustilanteesta, jossa on statiivilla kiinni säteilyn lähde, valoilmaisin suljettu, sekä säteilyn lähteen ja tuikeilmaisimen välissä on lyijylevy vaimentamassa. Lisäksi neljännessä kuvassa on mittausväline, jolla määritetään levyjen paksuus. (eivät olleet tasapaksuja)
+
+\subsection*{Häiriötekijät ja ratkaisut}
+\paragraph{Ulkoinen valo\\}
+Ulkoinen valo on huomattavasti suurempi kuin tuikekiteestä saatava signaali, joten valoanturi on suljettu mustaan ei-läpinäkyvään laatikkoon.
+
+\paragraph{Tuikekiteen paikkariippuvuus\\}
+Tuikekide on vain seisomassa anturin paikalla, joten on tönäisyherkkä, ja sen pienehkökin liikahdus on havaittu muuttavan tuloksia suuresti. Pienentäkseen liikahtamista musta laatikko teipattiin kiinni pöytään. Huomautus: jos liian pieni signaali, niin se johtuu siitä, että kide on pois paikaltaan.
+
+\paragraph{Taustakohina\\}
+Taustasäteilyä ei ollut mahdollista eliminoida laboratorio-oloissa, joten sitä yritetään pienentää kahdella tavalla: 1) suodattamalla liian heikon signaalin pois, ja 2) mittaamalla tausta ja vähentämällä sen tutkimustuloksista.
 
 \section{Teoria}
 

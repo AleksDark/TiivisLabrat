@@ -159,7 +159,16 @@ pl.show()
 
 
 
-
+N0=N0-N_tausta.mean()
+N1=N1-N_tausta.mean()
+N2=N2-N_tausta.mean()
+N3=N3-N_tausta.mean()
+N4=N4-N_tausta.mean()
+N5=N5-N_tausta.mean()
+N6=N6-N_tausta.mean()
+N7=N7-N_tausta.mean()
+N8=N8-N_tausta.mean()
+#N0=N0-N_tausta.mean()
 
 
 

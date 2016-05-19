@@ -144,25 +144,6 @@ aSigma=np.sqrt(N);
 bParameters=np.polyfit(x,N,1, w=1/aSigma)
 p2 = np.poly1d(bParameters)
 
-plt.figure(3,figsize=(20,10))
-
-#rSuora=plt.plot(x, N, '.', xp, p2(xp), '-', label='asdasd')
-rSuora,=plt.plot(x, N, 'r.',label='Data')
-#rSuora2,=plt.plot(xp, p2(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ *'+str(int(aParameters[0]*100)/100.0)+'+'+str(int(aParameters[1]*100)/100.0))
-rSuora2=plt.plot(xp, p2(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ *'+str(int(aParameters[0]*100)/100.0)+'+'+str(int(aParameters[1]*100)/100.0))
-
-plt.errorbar(x,N, fmt='r.', xerr=0, yerr=aSigma, ecolor='black', capthick=3)
-pl.title('AOL 1.2.L2, Sateily kaanteisen etaisyyden nelion funktiona',size=28,fontweight='bold')
-pl.xlabel('$1/etaisyys^2 (1/cm^2)$',size=18)
-pl.ylabel('Naytteita minuutissa, (1/min) ',size=16)
-pl.legend([rSuora, rSuora2],['qweqwe','13123'])
-plt.legend(bbox_to_anchor=(0.05, 1), loc=2, borderaxespad=0., prop={'size':20})
-
-#plt.show()
-plt.savefig('3.png')
-print 'Parameters, weighted fit: ', bParameters
-
-
 # Sovitusparametrien epatarkkuuden laskeminen
 D=sum(1/(aSigma*aSigma))*sum(x**2/aSigma**2)-(sum(x/aSigma**2))**2
 #D=(1/(dSigma*dSigma))*len(N)*sum(N**2/dSigma**2)-(sum(N/dSigma**2))**2
@@ -178,6 +159,28 @@ sigmaB2=1/D*sum(1/aSigma**2)
 sigmaB=np.sqrt(sigmaB2);
 print 'Sigma B:t : ', sigmaB2, sigmaB
 print 'Sigma B on kulmakertoimen epatarkkuus'
+
+
+plt.figure(3,figsize=(20,10))
+
+#rSuora=plt.plot(x, N, '.', xp, p2(xp), '-', label='asdasd')
+rSuora,=plt.plot(x, N, 'r.',label='Data')
+#rSuora2,=plt.plot(xp, p2(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ *'+str(int(aParameters[0]*100)/100.0)+'+'+str(int(aParameters[1]*100)/100.0))
+#rSuora2=plt.plot(xp, p2(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ *'+str(int(bParameters[0]*100)/100.0)+'+'+str(int(bParameters[1]*100)/100.0))
+rSuora2=plt.plot(xp, p2(xp), '-', label='Sovitettu suora, \n $N=1/r^2$ * ('+str(int(bParameters[0]*100)/100.0)+'$\pm$'+str(int(100*sigmaB)/100.0)+') +'+str(int(bParameters[1]*100)/100.0) +'$\pm$'+str(int(100*sigmaA)/100.0)+')')
+
+plt.errorbar(x,N, fmt='r.', xerr=0, yerr=aSigma, ecolor='black', capthick=3)
+pl.title('AOL 1.2.L2, Sateily kaanteisen etaisyyden nelion funktiona',size=28,fontweight='bold')
+pl.xlabel('$1/etaisyys^2 (1/cm^2)$',size=18)
+pl.ylabel('Naytteita minuutissa, (1/min) ',size=16)
+pl.legend([rSuora, rSuora2],['qweqwe','13123'])
+plt.legend(bbox_to_anchor=(0.05, 1), loc=2, borderaxespad=0., prop={'size':20})
+
+#plt.show()
+plt.savefig('3.png')
+print 'Parameters, weighted fit: ', bParameters
+
+
 
 #a=1/D *(sum((x/dSigma)**2)*sum(N/dSigma**2)-sum(x/dSigma**2)*sum(x*N/dSigma**2))
 #print 'Vakio on a: ', a
