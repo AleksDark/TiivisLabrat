@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.13)  19 MAY 2016 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.13)  19 MAY 2016 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,16 +55,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count88
-)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -82,13 +75,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -97,15 +90,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks16
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks17
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
@@ -114,8 +107,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen112
 \lineht@=\dimen113
 \@envbody=\toks18
-\multlinegap=\skip46
-\multlinetaggap=\skip47
+\multlinegap=\skip44
+\multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -138,7 +131,7 @@ Language: finnish 2007/10/20 v1.3q Finnish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count101
+\babel@savecnt=\count100
 \U@D=\dimen114
 )
 Package babel Info: Making " an active character on input line 89.
@@ -157,40 +150,40 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count102
+\uc@secondtry=\count101
 \uc@combtoks=\toks22
 \uc@combtoksb=\toks23
 \uc@temptokena=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count103
+\lst@mode=\count102
 \lst@gtempboxa=\box28
 \lst@token=\toks25
-\lst@length=\count104
+\lst@length=\count103
 \lst@currlwidth=\dimen115
-\lst@column=\count105
-\lst@pos=\count106
+\lst@column=\count104
+\lst@pos=\count105
 \lst@lostspace=\dimen116
 \lst@width=\dimen117
-\lst@newlines=\count107
-\lst@lineno=\count108
+\lst@newlines=\count106
+\lst@lineno=\count107
 \lst@maxwidth=\dimen118
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count109
-\lst@skipnumbers=\count110
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
 \lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -264,13 +257,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen119
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count112
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -282,7 +275,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count113
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -290,7 +283,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen120
-\Fld@menulength=\count115
+\Fld@menulength=\count114
 \Field@Width=\dimen121
 \Fld@charsize=\dimen122
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -302,29 +295,29 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
+\Fld@listcount=\count118
+\c@bookmark@seq@number=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip55
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen123
 \WF@size=\dimen124
-\c@WF@wrappedlines=\count121
+\c@WF@wrappedlines=\count120
 \WF@box=\box30
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
@@ -338,9 +331,9 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count122
-\rotFPtop=\skip58
-\rotFPbot=\skip59
+\c@r@tfl@t=\count121
+\rotFPtop=\skip56
+\rotFPbot=\skip57
 \rot@float@box=\box31
 \rot@mess@toks=\toks27
 )
@@ -362,25 +355,32 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count122
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) (./report2.aux)
 \openout1 = `report2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
@@ -399,7 +399,7 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \c@lstlisting=\count129
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -409,9 +409,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 
 (./report2.out) (./report2.out)
 \@outlinefile=\write3
@@ -421,125 +421,234 @@ LaTeX Info: Redefining \nameref on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 59.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 
-Overfull \hbox (4.96481pt too wide) in paragraph at lines 72--73
+Overfull \hbox (4.96481pt too wide) in paragraph at lines 73--74
 \OT1/cmr/m/n/12 mai-si-men toi-min-taan ja siin[]a hy[]odynnett[]av[]a[]an elek
 t-ro-niik-kaan. Lis[]ateht[]av[]an[]a
  []
 
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 75.
 [2
 
 ]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 77.
 
-Overfull \hbox (11.6078pt too wide) in paragraph at lines 82--83
+Overfull \hbox (11.6078pt too wide) in paragraph at lines 83--84
 \OT1/cmr/m/n/12 kor-keu-del-le l[]ahteest[]a. Gam-mas[]ateilyn vai-me-ne-mis-ta
  lyi-jyss[]a tut-kit-tiin lis[]am[]all[]a
  []
 
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining finnish shorthand "|
 (babel)             in language  on input line 85.
-<Koejarjestely.png, id=50, 572.89032pt x 403.5075pt>
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 86.
+<Koejarjestely.png, id=85, 572.89032pt x 403.5075pt>
 File: Koejarjestely.png Graphic file (type png)
  <use Koejarjestely.png>
-Package pdftex.def Info: Koejarjestely.png used on input line 89.
+Package pdftex.def Info: Koejarjestely.png used on input line 90.
 (pdftex.def)             Requested size: 401.0205pt x 282.45332pt.
 
-Overfull \hbox (11.0205pt too wide) in paragraph at lines 89--91
+Overfull \hbox (11.0205pt too wide) in paragraph at lines 90--92
 [][]
  []
 
-<LaitteistonOsat.png, id=53, 602.25pt x 526.96875pt>
+
+Overfull \hbox (15.75412pt too wide) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/12 Helpottaakseen lait-teis-ton ra-ken-ta-mis-ta laboratorio-olo
+suhteissa Ku-va 2 n[]aytt[]a[]a
+ []
+
+<LaitteistonOsat.png, id=89, 602.25pt x 526.96875pt>
 File: LaitteistonOsat.png Graphic file (type png)
  <use LaitteistonOsat.png>
-Package pdftex.def Info: LaitteistonOsat.png used on input line 99.
+Package pdftex.def Info: LaitteistonOsat.png used on input line 100.
 (pdftex.def)             Requested size: 542.01999pt x 474.26749pt.
 
-Overfull \hbox (152.01999pt too wide) in paragraph at lines 99--101
+Overfull \hbox (152.01999pt too wide) in paragraph at lines 100--102
 [][]
  []
 
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 [3
 
 ]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 118.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 122.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 121.
  [4 <./Koejarjestely.png>]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 121.
  [5 <./LaitteistonOsat.png>]
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining finnish shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 146.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 159.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 166.
+
+Overfull \hbox (31.30203pt too wide) in paragraph at lines 174--175
+[]\OT1/cmr/m/n/12 Nyt hie-man tar-kas-tel-laan ta-paus-tam-me. Tar-kas-te-lem-m
+e mit-tauk-sen ep[]atarkkuutta,
+ []
+
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 189.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 191.
+<EsivahvistinSignaali.png, id=134, 321.2pt x 234.8775pt>
+File: EsivahvistinSignaali.png Graphic file (type png)
+
+<use EsivahvistinSignaali.png>
+Package pdftex.def Info: EsivahvistinSignaali.png used on input line 196.
+(pdftex.def)             Requested size: 385.43808pt x 281.85158pt.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 202.
+
+<VahvistinSignaali.png, id=136, 321.2pt x 234.8775pt>
+File: VahvistinSignaali.png Graphic file (type png)
+
+<use VahvistinSignaali.png>
+Package pdftex.def Info: VahvistinSignaali.png used on input line 205.
+(pdftex.def)             Requested size: 385.43808pt x 281.85158pt.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 210.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 212.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 212.
+ [7]
+<CuttingHistogram.png, id=149, 770.88pt x 616.704pt>
+File: CuttingHistogram.png Graphic file (type png)
+
+<use CuttingHistogram.png>
+Package pdftex.def Info: CuttingHistogram.png used on input line 214.
+(pdftex.def)             Requested size: 385.43906pt x 308.35124pt.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 221.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 225.
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+\OT1/cmtt/m/n/12 fi / pluginfile . php / 1228493 / mod _ resource / content / 3
+ / AOLI . 2 . S %
+ []
+
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 230.
+[8 <./EsivahvistinSignaali.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+[][]$\OT1/cmtt/m/n/12 http : / / www . nuclear-[]power . net / nuclear-[]power 
+/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\OT1/cmtt/m/n/12 reactor-[]physics / interaction-[]radiation-[]matter /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\OT1/cmtt/m/n/12 interaction-[]gamma-[]radiation-[]matter / gamma-[]ray-[]atten
+uation/$[]\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+[][]$\OT1/cmtt/m/n/12 http : / / physics . nist . gov / PhysRefData / XrayMassC
+oef / ElemTab /
+ []
+
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 235.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 235.
+[9 <./VahvistinSignaali.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+[][]$\OT1/cmtt/m/n/12 http : / / physics . nist . gov / PhysRefData / XrayMassC
+oef / ComTab / air .
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining finnish shorthand "|
+(babel)             in language  on input line 240.
+[10 <./CuttingHistogram.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./report2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `report2.out' has not changed.
-(rerunfilecheck)             Checksum: 1A9136B84BEF2E8E4D00521DB73351CE;403.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+(rerunfilecheck)             Checksum: 06BDF0A30F514D8B490FC2E7C77D5C07;1046.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 9165 strings out of 493105
- 128834 string characters out of 6137072
- 256349 words of memory out of 5000000
- 12481 multiletter control sequences out of 15000+600000
- 12704 words of font info for 49 fonts, out of 8000000 for 9000
+ 9242 strings out of 493105
+ 130154 string characters out of 6137072
+ 256722 words of memory out of 5000000
+ 12526 multiletter control sequences out of 15000+600000
+ 12873 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,7n,43p,667b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,43p,651b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on report2.pdf (6 pages, 777620 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb>
+Output written on report2.pdf (10 pages, 931128 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

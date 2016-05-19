@@ -149,7 +149,7 @@ pl.xlabel('lyijyn paksuus (mm)',size=14)
 pl.ylabel('log N (1/s)',size=14)
 
 #pl.ion()
-pl.show()
+###pl.show()
 #pl.waitforbuttonpress(timeout=-1)
 
 
@@ -212,6 +212,15 @@ aLogErrors[0][9]=aErrors[0][9]/N_tausta.mean()
 #np.savetxt('Analysis/aLogErrors.txt', dResults, newline="\n")
 
 np.savetxt('Analysis/FinalResults.txt', (x, logN, aErrors[0][0:9], aLogErrors[0][0:9] ), newline="\n")
+
+temp=x*0;
+for i in range(9):
+    temp[i]=aLogErrors[0][i]
+
+temp=temp*3;
+plt.errorbar(x,logN, fmt='r.', xerr=0, yerr=temp, ecolor='black', capthick=3)
+
+pl.show()
 
 
 print aErrors
