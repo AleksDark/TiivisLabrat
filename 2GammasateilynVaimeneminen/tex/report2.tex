@@ -52,7 +52,7 @@
 
 \author{Alexey \textsc{Sofiev}} % Author name
 
-\date{\today} % Date for the report
+\date{19.05.2016} % Date for the report
 
 \begin{document}
 
@@ -70,17 +70,19 @@ Opiskelijanumeroni: & 013573003 % Instructor/supervisor
 \clearpage
 \section{Tiivistelmä}
 
-Fysiikan aineopintojen toisen laboratoriotyön tarkoituksena oli rakentaa tuikeilmaisin havaitakseen gammasäteilyä. Päätehtävänä oli tutustua tuikeilmaisimen toimintaan ja siinä hyödynnettävään elektroniikkaan. Lisätehtävänä oli tutkia säteilyn vaimenemista lyijyssä.
+Fysiikan aineopintojen toisen laboratoriotyön tarkoituksena oli rakentaa tuikeilmaisin havaitsemaan gammasäteilyä. Päätehtävänä oli tutustua tuikeilmaisimen toimintaan ja siinä hyödynnettävään elektroniikkaan. Lisätehtävänä oli tutkia säteilyn vaimenemista lyijyssä.
+
+Molemmat tehtävät onnistuivat, määritetty lyijyn vaimenemiskerroin vastaa teoreettista tilannetta virherajojen sisällä. Huolimatta laitteiston suunnitellusta toiminnallisuudesta, virherajoissa on yhä pienentämistä.
 
 \clearpage
 
 \section{Johdanto}
 
-Tämän laboratoriotyön tarkoituksena oli rakentaa laitteisto, joka pystyisi havaitsemaan gammasäteilyä. Työssä ollaan valittu tuikekide havainnointikappaleeksi, joka muuntaa osuvaa gammasäteilyä valon tuikahdukseksi. Saatu signaali on kuitenkin hieman heikko, joten ennen sen rekisteröintiä se päästetään valomonistinputkesta läpi (PMT, photomultiplier tube), jonka jälkeen voimistunut valosignaali kerätään ja muutetaan sähköiseksi signaaliksi. Muuttaminen tapahtuu esivahvistimen avulla. Saatu signaali ohjataan tietokoneen äänikortille, josta se kerätään talteen PRA11 ohjelman avulla.
+Tämän laboratoriotyön tarkoituksena oli rakentaa laitteisto, joka pystyisi havaitsemaan gammasäteilyä. Työssä on valittu havainnointikappaleeksi tuikekide, joka muuntaa siihen osuvaa gammasäteilyä valon tuikahdukseksi. Saatu signaali on kuitenkin hieman heikko, joten ennen sen rekisteröintiä se päästetään valomonistinputkesta läpi (PMT, photomultiplier tube), jonka jälkeen voimistunut valosignaali kerätään ja muutetaan sähköiseksi signaaliksi. Muuttaminen tapahtuu esivahvistimen avulla. Saatu signaali ohjataan tietokoneen äänikortille, josta se kerätään talteen PRA11 ohjelman avulla.
 
 Ennen varsinaista mittausta tutkitiin rakennetun piirin ulostulevan signaalin muotoja oskilloskoopilla, mm. esivahvistin ja vahvistin.
 
-Mittaukset aloitettiin taustasäteilyn mittauksella, jotta sitä voitais poistaa analyysivaiheessa. Säteilyn lähteenä oli Cs-137, ja se oli asetettu parin cm korkeudelle lähteestä. Gammasäteilyn vaimenemista lyijyssä tutkittiin lisämällä ohuita 0.13 -- 0.16 cm paksuja levyjä säteilylähteen ja tuikeilmaisimen väliin.
+Mittaukset aloitettiin taustasäteilyn mittauksella, jotta sitä voitaisiin poistaa analyysivaiheessa. Säteilyn lähteenä oli Cs-137, ja se oli asetettu parin cm korkeudelle lähteestä. Gammasäteilyn vaimenemista lyijyssä tutkittiin lisämällä ohuita 0.13 -- 0.16 cm paksuisia levyjä säteilylähteen ja tuikeilmaisimen väliin.
 
 \section{Koejärjestely}
 \subsection{Koejärjestely yleisesti}
@@ -102,17 +104,17 @@ Helpottaakseen laitteiston rakentamista laboratorio-olosuhteissa Kuva 2 näyttä
 \caption{Laitteiston osat. 1. Valoanturi, jonka vihreän osan päällä on tuikekide; 2. Esivahvistin; 3.Vahvistin; 4. Mittaustilanne, jossa on suljettu valoanturi ja 2 lyijylevyä päällä.}
 \end{figure}
 
-Kuvan 2 ensimmäisessä kuvassa on auki oleva valoanturi, jonka vihreän osan keskellä on läpinäkyvä tuikeilmaisin. Mittausten ajaksi tuo laatikko on kiinni, jolla vältetään näkyvän valon häiriötä. Toisessa kuvassa (oikea ylänurkka) on esivahvistin. Kolmannessa vahvistin, ja neljännessä kuvassa on kuva mittaustilanteesta, jossa on statiivilla kiinni säteilyn lähde, valoilmaisin suljettu, sekä säteilyn lähteen ja tuikeilmaisimen välissä on lyijylevy vaimentamassa. Lisäksi neljännessä kuvassa on mittausväline, jolla määritetään levyjen paksuus. (eivät olleet tasapaksuja)
+Kuvan 2 ensimmäisessä kuvassa on auki oleva valoanturi, jonka vihreän osan keskellä on läpinäkyvä tuikeilmaisin. Mittausten aikana tuo laatikko on kiinni, jotta vältetään näkyvän valon häiriötä. Toisessa kuvassa (oikea ylänurkka) on esivahvistin. Kolmannessa vahvistin, ja neljännessä kuvassa on kuva mittaustilanteesta, jossa on statiivilla kiinni säteilyn lähde, valoilmaisin suljettu, sekä säteilyn lähteen ja tuikeilmaisimen välissä on lyijylevy vaimentamassa. Lisäksi neljännessä kuvassa on mittausväline, jolla määritetään levyjen paksuus. (eivät olleet tasapaksuja)
 
 \subsection*{Häiriötekijät ja ratkaisut}
 \paragraph{Ulkoinen valo\\}
 Ulkoinen valo on huomattavasti suurempi kuin tuikekiteestä saatava signaali, joten valoanturi on suljettu mustaan ei-läpinäkyvään laatikkoon.
 
 \paragraph{Tuikekiteen paikkariippuvuus\\}
-Tuikekide on vain seisomassa anturin paikalla, joten on tönäisyherkkä, ja sen pienehkökin liikahdus on havaittu muuttavan tuloksia suuresti. Pienentäkseen liikahtamista musta laatikko teipattiin kiinni pöytään. Huomautus: jos liian pieni signaali, niin se johtuu siitä, että kide on pois paikaltaan.
+Tuikekide on vain seisomassa anturin paikalla, joten on tönäisyherkkä, ja sen pienehkönkin liikahduksen on havaittu muuttavan tuloksia suuresti. Pienentääkseen liikahtamista musta laatikko teipattiin kiinni pöytään. Huomautus: jos liian pieni signaali, niin se johtuu siitä, että kide on pois paikaltaan.
 
 \paragraph{Taustakohina\\}
-Taustasäteilyä ei ollut mahdollista eliminoida laboratorio-oloissa, joten sitä yritetään pienentää kahdella tavalla: 1) suodattamalla liian heikon signaalin pois, ja 2) mittaamalla tausta ja vähentämällä sen tutkimustuloksista.
+Taustasäteilyä ei ollut mahdollista eliminoida laboratorio-oloissa, joten sitä yritetään pienentää kahdella tavalla: 1) suodattamalla liian heikon signaali pois, ja 2) mittaamalla tausta ja vähentämällä sen tutkimustuloksista.
 
 \section{Teoria}
 
@@ -220,10 +222,29 @@ Säteilijän signaali on Poisson/Gaussisesti jakautunut, sillä välin kun kohin
 
 \section{Tulokset}
 
+Käyttäen edellä mainittua teoriaa ja mitattua datajoukkoa, saadaan Kuva 6.
 
+\begin{sidewaysfigure}[!hbt]
+\includegraphics[scale=0.45]{../SateilynVaimeneminen}
+\label{fig:SateilynVaimeneminen}
+\caption{Säteilyn vaimeneminen}
+\end{sidewaysfigure}
+
+Käytetty säteilijä on pääosin Cs-137, jonka säteilyn energia on 661.64 keV. \cite{CsEnergy}. Lyijyn tiheys on 11.34 * $10^3$ kg/$m^3$ ja absortiokerroin per tiheys ($\sigma/\rho$) edellä mainitulle energialle on noin 467.2 $cm^2/g$ \cite{GammaLead} eli saadaan 
+
+\begin{equation}
+\mu = 467.2 *10^4 m^2 / 10^{-3} kg / 11.34 *10^3 kg/m^3  \approx 0.412\ \ 1/mm
+\end{equation}
+
+Eli teoreettinen arvo on mittausvirheen sisällä saadusta arvosta.
 
 \section{Johtopäätökset}
 
+Mittauslaitteiston rakentaminen onnistui, mittauksissa saatu arvo lyijyn vaimentamiskertoimelle on teoreettisen arvion sisällä. Suoran sovitus tuotti suuria parametrien virheitä, jotka ainakin silmämääräisesti eniten johtuivat ensimmäisestä mittauksesta ilman lyijykerrosta.
+
+Selityksenä sille voidaan olettaa, että jopa ohut lyijykerros suodattaa jonkun energiaspektrin taustasäteilystä pois, jolloin suojakerroksen olemassaololla ja puutteella on suurta eroa.
+
+\clearpage
 \section{Viitteet}
 
 \begin{thebibliography}{1}
@@ -232,11 +253,16 @@ Säteilijän signaali on Poisson/Gaussisesti jakautunut, sillä välin kun kohin
 
 \bibitem{Vaimeneminen} \url{http://www.nuclear-power.net/nuclear-power/reactor-physics/interaction-radiation-matter/interaction-gamma-radiation-matter/gamma-ray-attenuation/}, katsottu 20160519. 
 
-\bibitem{GammaLead} \url{http://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html}
+\bibitem{GammaLead} \url{http://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html}, katsottu 20160519.
 
-\bibitem{GammaAir} \url{http://physics.nist.gov/PhysRefData/XrayMassCoef/ComTab/air.html}
+\bibitem{GammaAir} \url{http://physics.nist.gov/PhysRefData/XrayMassCoef/ComTab/air.html}, katsottu 20160519.
+
+\bibitem{CsEnergy} \url{https://www.cpp.edu/~pbsiegel/bio431/genergies.html}, katsottu 20160519.
 
 \end{thebibliography}
 
+\section{Liitteet}
+Mittauspöytäkirjat, analysointiskriptit yms:
+\url{https://github.com/AleksDark/TiivisLabrat/tree/master/2GammasateilynVaimeneminen}
 
 \end{document}

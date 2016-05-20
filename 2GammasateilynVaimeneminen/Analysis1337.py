@@ -113,11 +113,17 @@ print('logN=',logN)
 #Suoransovitus: parametrin (x-akseli,y-akseli, suoran aste)
 #Polyfit tuottaa listan arvoista jotka sopivat
 
+
+
+
 zParametrit = np.polyfit(x,logN, 1)#katsoo parametrit
 p = np.poly1d(zParametrit)
 xp=np.linspace(0,1.5,500)  # tuottaa suoran xp
 
-plt.plot(x,logN,'.',xp,p(xp),'-')
+
+plt.figure(0,figsize=(20,10))
+
+rSuora=plt.plot(x,logN,'ro',label='Data')
 
 #virhearviointi virheenneliö sig^2 = 1/(N-2)*sum(ali)
 
@@ -146,7 +152,7 @@ plt.plot(x,logN,'.',xp,p(xp),'-')
 #KUVANMUOKKAUS
 pl.title('Sateilyn vaimeneminen lyijyssa',size=18,fontweight='bold')
 pl.xlabel('lyijyn paksuus (mm)',size=14)
-pl.ylabel('log N (1/s)',size=14)
+pl.ylabel('log I (1/s)',size=14)
 
 #pl.ion()
 ###pl.show()
@@ -213,14 +219,38 @@ aLogErrors[0][9]=aErrors[0][9]/N_tausta.mean()
 
 np.savetxt('Analysis/FinalResults.txt', (x, logN, aErrors[0][0:9], aLogErrors[0][0:9] ), newline="\n")
 
+
+aSigma=aErrors[0][0:9]
+
+# Sovitusparametrien epatarkkuuden laskeminen
+D=sum(1/(aSigma*aSigma))*sum(x**2/aSigma**2)-(sum(x/aSigma**2))**2
+#D=(1/(dSigma*dSigma))*len(N)*sum(N**2/dSigma**2)-(sum(N/dSigma**2))**2
+print D
+
+sigmaA2=1/D *sum((x/aSigma)**2)
+sigmaA=np.sqrt(sigmaA2)
+print 'Sigma A:t : ', sigmaA2, sigmaA
+print 'Sigma A on vakion epatarkkuus'
+
+#
+sigmaB2=1/D*sum(1/aSigma**2)
+sigmaB=np.sqrt(sigmaB2);
+print 'Sigma B:t : ', sigmaB2, sigmaB
+print 'Sigma B on kulmakertoimen epatarkkuus'
+
+print 'zParametrit', zParametrit
+
 temp=x*0;
 for i in range(9):
     temp[i]=aLogErrors[0][i]
 
 temp=temp*3;
 plt.errorbar(x,logN, fmt='r.', xerr=0, yerr=temp, ecolor='black', capthick=3)
+rSuora2=plt.plot(xp,p(xp),'-', label='Sovitettu suora, \n $log(I)=x$ * ('+str(int(zParametrit[0]*100)/100.0)+'$\pm$'+str(int(100*sigmaB)/100.0)+') +'+str(int(zParametrit[1]*100)/100.0) +'$\pm$'+str(int(100*sigmaA)/100.0)+')')
+pl.legend([rSuora, rSuora2],['qweqwe','13123'])
+plt.legend(bbox_to_anchor=(0.55, 1), loc=2, borderaxespad=0., prop={'size':20})
 
-pl.show()
-
+#pl.show()
+pl.savefig('SateilynVaimeneminen.png')
 
 print aErrors
